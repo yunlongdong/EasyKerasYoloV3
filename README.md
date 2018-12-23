@@ -9,7 +9,9 @@ Training on own dataset is quite simple, first download [yolo_weights.h5]() into
 
 And provide ```model_data/own_classes.txt``` which contains the class name of detecting objects, here I provide a example for only one class detection task.
 
-And then all you need is to prepare ```train.txt``` in the same directory with ```train.py```, each line of train.txt is of this format: ```\path\to\img1 xmin,y_min,x_max,y_max,id```, remember no ```<space>``` before/after ```,``` and an ```<space>``` between ```\path\to\img1``` and ```xmin```. Here I provide a example ```train.txt```
+And then all you need is to prepare ```own_train.txt``` in the same directory with ```train.py```, each line of train.txt is of this format: ```\path\to\img1 xmin,y_min,x_max,y_max,id```, remember no ```<space>``` before/after ```,``` and an ```<space>``` between ```\path\to\img1``` and ```xmin```. Here I provide a example ```own_train.txt```, remember id starts from 0.
+
+like ```imgs/1.jpg 147,30,437,215,0```
 
 ##   Training
 
