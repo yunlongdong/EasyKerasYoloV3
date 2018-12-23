@@ -1,4 +1,4 @@
-# Easy Kears Yolo V3
+# Easy Keras Yolo V3
 ## Introduction
 This repo is intended for purely training your own dataset of detection.
 And this repo is mainly modified from [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3).
@@ -26,3 +26,11 @@ After training, ```yolo_detect.py``` will detect objects on image while you type
 Usage:
 
 ```python yolo_detect.py --model_path \path\to\models```, remember to use the path to models trained stored in ```logs/000/``` mentioned above.
+
+
+
+## My Dataset Performance
+
+I trained my model on detecting box of input image. My dataset size is 500. And I got loss of ```10``` after training. The result is shown below.
+
+![]()
