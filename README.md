@@ -36,7 +36,7 @@ After training, ```yolo_detect.py``` will detect objects on image while you type
 
 Usage:
 
-```python yolo_detect.py --model_path \path\to\models```, remember to use the path to models trained stored in ```logs/000/``` mentioned above.
+```python yolo_detect.py --model_path /path/to/models```, remember to use the path to models trained stored in ```logs/000/``` mentioned above.
 
 
 
