@@ -42,11 +42,12 @@ Usage:
 
 ## My Dataset Performance
 
-I trained my model on detecting box of input image. My dataset size is 500. And I got loss of ```10``` after training. The result is shown below. You can download my trained model in 
+I trained my model on detecting box of input image. My dataset size is 500. And I got loss of ```10``` after training. The result is shown below. You can download my trained model in (choose one)
 
 * China Jianguoyun [trained_weights_final.h5](https://www.jianguoyun.com/p/DVy4OIYQy5yiBxjf9pAB) 
 * Google Drive [trained_weights_final.h5](https://drive.google.com/file/d/1bswm_MAEfwVwoDSRUFo9wWtSGl2UbJQU/view?usp=sharing)
-* and put it into ```model_data```/
+
+and put it into ```model_data```/
 
 ![](https://raw.githubusercontent.com/yunlongdong/EasyKerasYoloV3/master/imgs/result.jpg)
 
