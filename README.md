@@ -33,4 +33,5 @@ Usage:
 
 I trained my model on detecting box of input image. My dataset size is 500. And I got loss of ```10``` after training. The result is shown below.
 
-![]()
+![](https://raw.githubusercontent.com/yunlongdong/EasyKerasYoloV3/master/imgs/result.jpg)
+
