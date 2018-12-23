@@ -5,7 +5,7 @@ And this repo is mainly modified from [qqwweee/keras-yolo3](https://github.com/q
 
 ## Prepare own dataset
 
-Training on own dataset is quite simple, first download [yolo_weights.h5]() into ```model_data/```
+Training on own dataset is quite simple, first download [yolo_weights.h5](https://www.jianguoyun.com/p/DfLoST4Qy5yiBxjg8pAB) into ```model_data/```
 
 And provide ```model_data/own_classes.txt``` which contains the class name of detecting objects, here I provide a example for only one class detection task.
 
