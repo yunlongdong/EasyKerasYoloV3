@@ -1,4 +1,10 @@
 # Easy Keras Yolo V3
+
+## Test platform
+
+* **Win10**, ```tensorflow-cpu 1.9.0```,```keras 2.1.5```, ```python 3``` 
+* **Ubuntu 14.04**, ```tensorflow-gpu 1.10.1```, ```keras 2.2.4```,```python3```, ```cuda-9.0``` on ```GTX1080```
+
 ## Introduction
 This repo is intended for purely training your own dataset of detection.
 And this repo is mainly modified from [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3).
