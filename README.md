@@ -22,7 +22,7 @@ And provide ```model_data/own_classes.txt``` which contains the class name of de
 
 And then all you need is to prepare ```own_train.txt``` in the same directory with ```train.py```, each line of train.txt is of this format: ```/pat/to/img1 xmin,y_min,x_max,y_max,id```, remember no ```<space>``` before/after ```,``` and an ```<space>``` between ```/path/to/img1``` and ```xmin```. Here I provide a example ```own_train.txt```, remember id starts from 0.
 
-like ```imgs/1.jpg 147,30,437,215,0```
+like ```imgs/1.jpg 147,30,437,215,0 147,30,437,215,1``` for two objects labelled in one image, ```<space>``` shall be inserted between two labels.
 
 ##   Training
 
